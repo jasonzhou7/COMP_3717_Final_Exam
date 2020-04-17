@@ -30,4 +30,10 @@ public class Member {
     public void setLink(String link) {
         Link = link;
     }
+
+    @Override
+    public String toString() {
+        return
+                "Title: " + Title + " | " + "Description: " + Description + " | " + "Link: " + Link;
+    }
 }
